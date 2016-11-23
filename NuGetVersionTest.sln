@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetVersionTest", "NuGetVersionTest\NuGetVersionTest.csproj", "{AAA2ACA9-79C5-4FBE-A050-2F1D6726E63F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A17AD2DC-7B1D-41B7-AF3C-1776686CAB8A}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{ED6081B1-8D1A-4BDF-956A-E051F669503C}"
+	ProjectSection(SolutionItems) = preProject
+		.build\build.ps1 = .build\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F20E8F7A-4A36-45B5-ADAA-AC8D4D21DBB7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGetVersionTest.nuspec = .nuget\NuGetVersionTest.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA2ACA9-79C5-4FBE-A050-2F1D6726E63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA2ACA9-79C5-4FBE-A050-2F1D6726E63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA2ACA9-79C5-4FBE-A050-2F1D6726E63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA2ACA9-79C5-4FBE-A050-2F1D6726E63F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

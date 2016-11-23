@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>NuGetVersionTest</id>
+    <version>$version$</version>
+    <authors>Shad Storhaug</authors>
+    <licenseUrl>https://raw.github.com/NightOwl888/NuGetVersionTest/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/NightOwl888/NuGetVersionTest</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple project for testing versioning schemes with NuGet</description>
+    <copyright>$copyright$</copyright>
+    <tags>NuGet version versioning package manager</tags>
+  </metadata>
+  <files>
+    <file src="..\NuGetVersionTest\bin\Release\NuGetVersionTest.dll" target="lib\net45\NuGetVersionTest.dll" />
+  </files>
+</package>
